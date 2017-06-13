@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz App Demo</string>
+    <string name="which_us_state">Which US state is named on the label of a Jack Daniels bottle?</string>
+    <string name="tennessee">Tennessee</string>
+    <string name="coconut">Coconut</string>
+    <string name="snake">Snake</string>
+    <string name="submit">submit</string>
+    <string name="north_african_country">Port Said is in which North African country?</string>
+    <string name="egypt">Egypt</string>
+    <string name="uganda">Uganda</string>
+    <string name="blood">Blood</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/question_jack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/which_us_state"/>
+
+    <RadioGroup
+        android:id="@+id/rg_question_jack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/tennessee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tennessee"
+            />
+
+        <RadioButton
+            android:id="@+id/coconut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coconut"
+            />
+
+        <RadioButton
+            android:id="@+id/snake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/snake"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/question_egypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/north_african_country"/>
+
+    <RadioGroup
+        android:id="@+id/rg_question_egypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/eqypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/egypt"
+            />
+
+        <RadioButton
+            android:id="@+id/uganda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/uganda"
+            />
+
+        <RadioButton
+            android:id="@+id/blood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="quizSubmit"
+            android:text="@string/blood"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit"/>
+</LinearLayout>
